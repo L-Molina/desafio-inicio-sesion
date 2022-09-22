@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/style.css" rel="stylesheet">
+        <title>Desafio entregable 13: Inicio de sesion - Registro de Usuario</title>
+    </head>
+    <body>
+       <div class="formulario">
+            <form action="/register" class="form" method="post">
+                <legend>REGISTRO DE  USUARIO</legend>                    
+				<div class="form-group">
+					<label for="name">Usuario</label>
+					<input type="text" class="form-control" name="username" id="username" placeholder="Nombre de Usuario" required>
+				</div>
+				<div class="form-group">
+					<label for="precio">E-Mail</label>
+					<input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
+				</div>       
+				<div class="form-group">
+					<label for="precio">Contraseña</label>
+					<input type="password" class="form-control" name="password" id="password" placeholder="Contraseña" required>
+				</div>       
+				<div class="form-button">
+					<input type="submit" value="REGISTRARSE" class="p-1">             
+				</div> 
+            </form>
+            <div class="lrBtn">
+                <a href="/login">IR A INICIO DE SESION →</a>                                   
+            </div> 
+       </div> 
+    </body>
+</html>

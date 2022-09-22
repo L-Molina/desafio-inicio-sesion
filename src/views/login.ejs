@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/style.css" rel="stylesheet">
+        <title>Desafio entregable 13: Inicio de sesion - Login</title>
+    </head>
+    <body>
+        <main>
+            <div class="formulario">
+                <form action="/login" class="form" method="post">
+                    <legend>Inicio de sesion</legend>                    
+					<div class="form-group">
+						<label for="precio">EMAIL</label>
+						<input type="text" class="form-control" name="email" id="email" placeholder="Email" required>
+					</div> 
+					<div class="form-group">
+						<label for="precio">CONTRASEÑA</label>
+						<input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+					</div>       
+					<div class="form-button">
+						<input type="submit" value="ENTRAR" class="p-1">             
+					</div> 
+                </form>
+                <div class="lrBtn">
+					<a href="/register">Registrarse →</a>                                   
+				</div>
+            </div>
+        </main>
+    </body>
+</html>
